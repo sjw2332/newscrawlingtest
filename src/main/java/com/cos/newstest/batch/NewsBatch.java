@@ -26,7 +26,7 @@ public class NewsBatch {
 		try {
 			newsRepository.saveAll(newsList);			
 		} catch (Exception e) {
-			System.out.println("기사없음");
+			System.out.println("db저장 오류");
 		}
 		
 		System.out.println("실행됨");
